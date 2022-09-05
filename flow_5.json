@@ -1,0 +1,27 @@
+[
+    {
+        "id": "5669307f60d7cb96",
+        "type": "http request",
+        "z": "33586cd927aa7bb0",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.openweathermap.org/data/2.5/weather?lat=18.922099&lon=-99.233955&appid=1ddf91b63c14dc77dbdf378fce79e2d8&units=metric",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "credentials": {},
+        "x": 290,
+        "y": 420,
+        "wires": [
+            [
+                "6eccae1206696714"
+            ]
+        ]
+    }
+]
